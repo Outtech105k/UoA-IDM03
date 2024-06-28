@@ -26,4 +26,10 @@ func main() {
 		}
 	}
 	fmt.Printf("Heads: %d, Tails: %d\n", heads, tails)
+
+	if heads > tails {
+		fmt.Println("You won!")
+	} else {
+		fmt.Println("You lost!")
+	}
 }
