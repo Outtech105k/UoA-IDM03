@@ -6,6 +6,12 @@ import (
 )
 
 func main() {
+	var userName string
+	fmt.Println("Who are you?")
+	fmt.Print("> ")
+	fmt.Scan(&userName)
+	fmt.Printf("Hello, %s!\n", userName)
+
 	heads := 0
 	tails := 0
 
