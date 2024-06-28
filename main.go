@@ -28,8 +28,8 @@ func main() {
 	fmt.Printf("Heads: %d, Tails: %d\n", heads, tails)
 
 	if heads > tails {
-		fmt.Println("You won!")
+		fmt.Println(userName, "won!")
 	} else {
-		fmt.Println("You lost!")
+		fmt.Println(userName, "lost!")
 	}
 }
